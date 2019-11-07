@@ -22,7 +22,7 @@ gulp.task('browser-sync', ['nodemon'], () => {
     proxy: `http://localhost:${config.server.port}`,
     files: ['public/**/*.*', '**.js'],
     browser: 'google chrome',
-    port: 7000,
+    port: 7015,
   });
 });
 

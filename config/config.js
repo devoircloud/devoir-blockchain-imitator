@@ -3,7 +3,7 @@ const env = process.env.NODE_ENV || 'development';
 const config = {
   development: {
     server: {
-      port: process.env.PORT || 3000,
+      port: process.env.PORT || 3015,
       hostname: process.env.HOSTNAME || 'localhost',
     },
     database: {
